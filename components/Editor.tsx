@@ -10,6 +10,7 @@ import { useEdgeStore } from "@/lib/edgestore";
 interface EditorProps {
   onChange: (value: string) => void;
   initialContent?: string;
+  editable: boolean;
 }
 
 function Editor({ onChange, initialContent }: EditorProps) {
