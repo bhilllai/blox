@@ -21,6 +21,7 @@ const spinnerVariants = cva(
   },
 );
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type SpinnerProps = VariantProps<typeof spinnerVariants>;
 
 export const Spinner = ({
